@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0000000000000000000040 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000020 /* main.m */; };
+		AA0000000000000000000041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000022 /* AppDelegate.m */; };
+		AA0000000000000000000042 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000024 /* MainWindowController.m */; };
+		AA0000000000000000000043 /* LEBCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000002C /* LEBCanvasView.m */; };
+		AA0000000000000000000044 /* LEBConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000026 /* LEBConfiguration.m */; };
+		AA0000000000000000000045 /* LEBFrameComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000002A /* LEBFrameComposer.m */; };
+		AA0000000000000000000046 /* LEBGlyphFont.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000028 /* LEBGlyphFont.m */; };
+		AA0000000000000000000047 /* LEBExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000002E /* LEBExporter.m */; };
+		AA0000000000000000000048 /* LEBGifExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000002F /* LEBGifExporter.m */; };
+		AA0000000000000000000049 /* LEBVideoExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000030 /* LEBVideoExporter.m */; };
+		AA000000000000000000004A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000060 /* Cocoa.framework */; };
+		AA000000000000000000004B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000061 /* QuartzCore.framework */; };
+		AA000000000000000000004C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000062 /* ImageIO.framework */; };
+		AA000000000000000000004D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000063 /* AVFoundation.framework */; };
+		AA000000000000000000004E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000064 /* CoreMedia.framework */; };
+		AA000000000000000000004F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000065 /* CoreVideo.framework */; };
+		AA0000000000000000000050 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000066 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA0000000000000000000009 /* LED Banner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LED Banner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA0000000000000000000021 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA0000000000000000000022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA0000000000000000000023 /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		AA0000000000000000000024 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		AA0000000000000000000025 /* LEBConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEBConfiguration.h; sourceTree = "<group>"; };
+		AA0000000000000000000026 /* LEBConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEBConfiguration.m; sourceTree = "<group>"; };
+		AA0000000000000000000027 /* LEBGlyphFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEBGlyphFont.h; sourceTree = "<group>"; };
+		AA0000000000000000000028 /* LEBGlyphFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEBGlyphFont.m; sourceTree = "<group>"; };
+		AA0000000000000000000029 /* LEBFrameComposer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEBFrameComposer.h; sourceTree = "<group>"; };
+		AA000000000000000000002A /* LEBFrameComposer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEBFrameComposer.m; sourceTree = "<group>"; };
+		AA000000000000000000002B /* LEBCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEBCanvasView.h; sourceTree = "<group>"; };
+		AA000000000000000000002C /* LEBCanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEBCanvasView.m; sourceTree = "<group>"; };
+		AA000000000000000000002D /* LEBExporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEBExporter.h; sourceTree = "<group>"; };
+		AA000000000000000000002E /* LEBExporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEBExporter.m; sourceTree = "<group>"; };
+		AA000000000000000000002F /* LEBGifExporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEBGifExporter.m; sourceTree = "<group>"; };
+		AA0000000000000000000030 /* LEBVideoExporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEBVideoExporter.m; sourceTree = "<group>"; };
+		AA0000000000000000000031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0000000000000000000032 /* AGENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AGENTS.md; sourceTree = "<group>"; };
+		AA0000000000000000000033 /* test_engine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_engine.m; sourceTree = "<group>"; };
+		AA0000000000000000000034 /* snapshot_ui.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snapshot_ui.m; sourceTree = "<group>"; };
+		AA0000000000000000000035 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile; sourceTree = "<group>"; };
+		AA0000000000000000000036 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AA0000000000000000000037 /* Info-Xcode.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info-Xcode.plist; sourceTree = "<group>"; };
+		AA0000000000000000000060 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA0000000000000000000061 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AA0000000000000000000062 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		AA0000000000000000000063 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AA0000000000000000000064 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AA0000000000000000000065 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		AA0000000000000000000066 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0000000000000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000000000000000000004A /* Cocoa.framework in Frameworks */,
+				AA000000000000000000004B /* QuartzCore.framework in Frameworks */,
+				AA000000000000000000004C /* ImageIO.framework in Frameworks */,
+				AA000000000000000000004D /* AVFoundation.framework in Frameworks */,
+				AA000000000000000000004E /* CoreMedia.framework in Frameworks */,
+				AA000000000000000000004F /* CoreVideo.framework in Frameworks */,
+				AA0000000000000000000050 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000010 /* src */,
+				AA0000000000000000000014 /* resources */,
+				AA0000000000000000000015 /* tests */,
+				AA0000000000000000000032 /* AGENTS.md */,
+				AA0000000000000000000035 /* Makefile */,
+				AA0000000000000000000036 /* .gitignore */,
+				AA0000000000000000000004 /* Frameworks */,
+				AA0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000009 /* LED Banner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000060 /* Cocoa.framework */,
+				AA0000000000000000000061 /* QuartzCore.framework */,
+				AA0000000000000000000062 /* ImageIO.framework */,
+				AA0000000000000000000063 /* AVFoundation.framework */,
+				AA0000000000000000000064 /* CoreMedia.framework */,
+				AA0000000000000000000065 /* CoreVideo.framework */,
+				AA0000000000000000000066 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000010 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000011 /* app */,
+				AA0000000000000000000012 /* engine */,
+				AA0000000000000000000013 /* export */,
+				AA0000000000000000000020 /* main.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000011 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000021 /* AppDelegate.h */,
+				AA0000000000000000000022 /* AppDelegate.m */,
+				AA0000000000000000000023 /* MainWindowController.h */,
+				AA0000000000000000000024 /* MainWindowController.m */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000012 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000025 /* LEBConfiguration.h */,
+				AA0000000000000000000026 /* LEBConfiguration.m */,
+				AA0000000000000000000027 /* LEBGlyphFont.h */,
+				AA0000000000000000000028 /* LEBGlyphFont.m */,
+				AA0000000000000000000029 /* LEBFrameComposer.h */,
+				AA000000000000000000002A /* LEBFrameComposer.m */,
+				AA000000000000000000002B /* LEBCanvasView.h */,
+				AA000000000000000000002C /* LEBCanvasView.m */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000013 /* export */ = {
+			isa = PBXGroup;
+			children = (
+				AA000000000000000000002D /* LEBExporter.h */,
+				AA000000000000000000002E /* LEBExporter.m */,
+				AA000000000000000000002F /* LEBGifExporter.m */,
+				AA0000000000000000000030 /* LEBVideoExporter.m */,
+			);
+			path = export;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000014 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000031 /* Info.plist */,
+				AA0000000000000000000037 /* Info-Xcode.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000015 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000033 /* test_engine.m */,
+				AA0000000000000000000034 /* snapshot_ui.m */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0000000000000000000005 /* LED Banner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA000000000000000000000D /* Build configuration list for PBXNativeTarget "LED Banner" */;
+			buildPhases = (
+				AA0000000000000000000006 /* Sources */,
+				AA0000000000000000000007 /* Frameworks */,
+				AA0000000000000000000008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LED Banner";
+			productName = "LED Banner";
+			productReference = AA0000000000000000000009 /* LED Banner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					AA0000000000000000000005 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = AA000000000000000000000A /* Build configuration list for PBXProject "LED Banner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0000000000000000000002;
+			productRefGroup = AA0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0000000000000000000005 /* LED Banner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0000000000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000040 /* main.m in Sources */,
+				AA0000000000000000000041 /* AppDelegate.m in Sources */,
+				AA0000000000000000000042 /* MainWindowController.m in Sources */,
+				AA0000000000000000000043 /* LEBCanvasView.m in Sources */,
+				AA0000000000000000000044 /* LEBConfiguration.m in Sources */,
+				AA0000000000000000000045 /* LEBFrameComposer.m in Sources */,
+				AA0000000000000000000046 /* LEBGlyphFont.m in Sources */,
+				AA0000000000000000000047 /* LEBExporter.m in Sources */,
+				AA0000000000000000000048 /* LEBGifExporter.m in Sources */,
+				AA0000000000000000000049 /* LEBVideoExporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA000000000000000000000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		AA000000000000000000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+		AA000000000000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/src/app",
+					"$(SRCROOT)/src/engine",
+					"$(SRCROOT)/src/export",
+				);
+				INFOPLIST_FILE = "resources/Info-Xcode.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ledbanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA000000000000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/src/app",
+					"$(SRCROOT)/src/engine",
+					"$(SRCROOT)/src/export",
+				);
+				INFOPLIST_FILE = "resources/Info-Xcode.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ledbanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA000000000000000000000A /* Build configuration list for PBXProject "LED Banner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000000000000000000000B /* Debug */,
+				AA000000000000000000000C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA000000000000000000000D /* Build configuration list for PBXNativeTarget "LED Banner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000000000000000000000E /* Debug */,
+				AA000000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0000000000000000000001 /* Project object */;
+}
