@@ -45,6 +45,7 @@ make app      # build build/LED Banner.app
 open "build/LED Banner.app"
 make test     # build and run headless engine/export tests
 make snapshot # render the UI to build/ui-snapshot.png (dev helper)
+make icon     # regenerate resources/AppIcon.icns from tools/make_icon.m
 make clean
 ```
 
@@ -79,6 +80,8 @@ src/export/LEBGifExporter.m
 src/export/LEBVideoExporter.m
 resources/Info.plist               # used by the Makefile bundle
 resources/Info-Xcode.plist         # used by the Xcode target
+resources/AppIcon.icns             # generated app icon (make icon)
+tools/make_icon.m                  # CoreGraphics icon generator
 tests/test_engine.m
 tests/snapshot_ui.m
 LED Banner.xcodeproj               # shared scheme "LED Banner", ad-hoc signed
